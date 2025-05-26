@@ -1,0 +1,94 @@
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgb(149 157 165 / 0.2);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 32px rgb(149 157 165 / 0.3);
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #1f2937; /* Gray-800 */
+  }
+  
+  .info {
+    color: #4b5563; /* Gray-600 */
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .rating {
+    display: flex;
+    margin: 12px 0;
+  }
+  
+  .star {
+    width: 24px;
+    height: 24px;
+    color: #fbbf24; /* yellow-400 */
+  }
+  
+  .star.empty {
+    color: #d1d5db; /* gray-300 */
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .button {
+    flex: 1;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin: 0 4px;
+  }
+  
+  .button:first-child {
+    margin-left: 0;
+  }
+  
+  .button:last-child {
+    margin-right: 0;
+  }
+  
+  .view {
+    background-color: #2563eb; /* blue-600 */
+  }
+  
+  .view:hover {
+    background-color: #1d4ed8; /* blue-700 */
+  }
+  
+  .bookmark {
+    background-color: #f59e0b; /* yellow-500 */
+  }
+  
+  .bookmark:hover {
+    background-color: #d97706; /* yellow-600 */
+  }
+  
+  .promote {
+    background-color: #16a34a; /* green-600 */
+  }
+  
+  .promote:hover {
+    background-color: #15803d; /* green-700 */
+  }
+  
